@@ -2,8 +2,8 @@
 
 [![Build status](https://img.shields.io/travis/imcuttle/walk-tree/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/walk-tree)
 [![Test coverage](https://img.shields.io/codecov/c/github/imcuttle/walk-tree.svg?style=flat-square)](https://codecov.io/github/imcuttle/walk-tree?branch=master)
-[![NPM version](https://img.shields.io/npm/v/walk-tree.svg?style=flat-square)](https://www.npmjs.com/package/walk-tree)
-[![NPM Downloads](https://img.shields.io/npm/dm/walk-tree.svg?style=flat-square&maxAge=43200)](https://www.npmjs.com/package/walk-tree)
+[![NPM version](https://img.shields.io/npm/v/walk-tree.svg?style=flat-square)](https://www.npmjs.com/package/@moyuyc/walk-tree)
+[![NPM Downloads](https://img.shields.io/npm/dm/walk-tree.svg?style=flat-square&maxAge=43200)](https://www.npmjs.com/package/@moyuyc/walk-tree)
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
