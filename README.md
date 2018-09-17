@@ -1,4 +1,4 @@
-# walk-tree
+# @moyuyc/walk-tree
 
 [![Build status](https://img.shields.io/travis/imcuttle/walk-tree/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/walk-tree)
 [![Test coverage](https://img.shields.io/codecov/c/github/imcuttle/walk-tree.svg?style=flat-square)](https://codecov.io/github/imcuttle/walk-tree?branch=master)
@@ -12,15 +12,15 @@ Enhanced and multifunctional tree walker
 ## Installation
 
 ```bash
-npm install walk-tree
+npm install @moyuyc/walk-tree
 # or use yarn
-yarn add walk-tree
+yarn add @moyuyc/walk-tree
 ```
 
 ## Usage
 
 ```javascript
-const walkTree = require('walk-tree')
+const walkTree = require('@moyuyc/walk-tree')
 
 walkTree(
   {

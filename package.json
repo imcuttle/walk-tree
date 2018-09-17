@@ -1,9 +1,12 @@
 {
-  "name": "walk-tree",
+  "name": "@moyuyc/walk-tree",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Enhanced and multifunctional tree walker",
   "author": "imcuttle",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "prepublishOnly": "npm test",
