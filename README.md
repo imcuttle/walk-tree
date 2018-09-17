@@ -42,7 +42,7 @@ walkTree(
 
 ### walk
 
-[index.js:54-138](https://github.com/imcuttle/walk-tree/blob/b32dd294e3cd4a7361ba24b7bcdcb4919ee2c5b2/index.js#L54-L138 'Source code on GitHub')
+[index.js:54-138](https://github.com/imcuttle/walk-tree/blob/99a9f10d8be1fb906ca52c273ddd5551ea0fa5ae/index.js#L54-L138 'Source code on GitHub')
 
 #### Parameters
 

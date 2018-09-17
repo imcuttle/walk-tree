@@ -1,6 +1,6 @@
 {
   "name": "@moyuyc/walk-tree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "description": "Enhanced and multifunctional tree walker",
   "author": "imcuttle",
