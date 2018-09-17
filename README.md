@@ -42,10 +42,12 @@ walkTree(
 
 ### walk
 
+[index.js:54-138](https://github.com/imcuttle/walk-tree/blob/b32dd294e3cd4a7361ba24b7bcdcb4919ee2c5b2/index.js#L54-L138 'Source code on GitHub')
+
 #### Parameters
 
 - `tree` {T} - Type `T` should extends Object
-- `walker` {(node, ctx) => {}} - Iterator for each node by order
+- `walker` {(node, ctx: Context) => {}} - Iterator for each node by order
 - `opts` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** {object}
   - `opts.path` {string} - The child's path on recursive struction (optional, default `'children'`)
   - `opts.order` {'pre' | 'post' | 'bfs'}
