@@ -1,0 +1,32 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "a",
+      "key": "a-b",
+      "children": [
+        {
+          "name": "aa"
+        }
+      ]
+    },
+    {
+      "name": "b",
+      "key": "a-b",
+      "children": [
+        {
+          "name": "bb"
+        }
+      ]
+    },
+    {
+      "name": "c",
+      "children": {
+        "name": "cc",
+        "children": {
+          "name": "ccc"
+        }
+      }
+    }
+  ]
+}

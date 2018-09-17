@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`walk-tree should remove works 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "name": "aa",
+        },
+      ],
+      "key": "a-b",
+      "name": "a",
+    },
+    Object {
+      "children": Object {
+        "children": Object {
+          "name": "ccc",
+        },
+        "name": "cc",
+      },
+      "name": "c",
+    },
+  ],
+  "name": "root",
+}
+`;
+
+exports[`walk-tree should remove works on single item 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "name": "aa",
+        },
+      ],
+      "key": "a-b",
+      "name": "a",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "name": "bb",
+        },
+      ],
+      "key": "a-b",
+      "name": "b",
+    },
+    Object {
+      "children": Object {
+        "name": "cc",
+      },
+      "name": "c",
+    },
+  ],
+  "name": "root",
+}
+`;
