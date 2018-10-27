@@ -130,6 +130,27 @@ Get the level of current node. The level is the number of ancestors+1 the curren
 
 Get the index of the current node.
 
+## FAQ
+
+### How can I get the path of the current node [tree-crawl#37](https://github.com/ngryman/tree-crawl/issues/37)?
+#### tl;dr It's easy for DFS, less easy for BFS
+
+If you are using DFS you can use the following utility function:
+
+```javascript
+const getPath = context =>
+  (context.cursor.stack.xs || []).reduce((path, item) => {
+    if (item.node) {
+      path.push(item.node)
+    }
+    return path
+  }, [])
+```
+
+If you are really concerned about performance, you could read items from the stack directly. Each item has a node and index property that you can use. The first item in the stack can be discarded and will have a node set to null. Be aware that you should not mutate the stack, or it will break the traversal.
+
+If you are using BFS, things gets more complex. A simple hacky way to do so is to traverse the tree using DFS first. You can ad a path property to your nodes using the method above. And then do your regular BFS traversal using that path property.
+
 ## Credit
 
 The core algorithm of traverse credits to [tree-crawl](https://github.com/ngryman/tree-crawl)
