@@ -21,7 +21,17 @@
   },
   "keywords": [
     "imcuttle",
-    "walk-tree"
+    "walk-tree",
+    "walk",
+    "tree",
+    "traverse",
+    "traversal",
+    "bfs",
+    "dfs",
+    "post",
+    "pre",
+    "bfs",
+    "visit"
   ],
   "typings": "index.d.ts",
   "license": "MIT",
